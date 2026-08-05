@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Language Translator App
 
-# Run and deploy your AI Studio app
+A simple and fast language translator web app built with modern web technologies.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
+- Translate text between multiple languages
+- Clean and responsive UI
+- Fast API integration
+- Easy to use
 
-View your app in AI Studio: https://ai.studio/apps/18b2e5eb-255e-4ace-8ebf-fc030edab751
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript, Vite
+- **Backend**: Node.js, server.ts
+- **API**: Google Translate API / Gemini API
+- **Deployment**: Vercel
 
-## Run Locally
+## ⚙️ Setup & Installation
 
-**Prerequisites:**  Node.js
+1. **Clone the repository**
+   git clone https://github.com/arif03362290021-cloud/language-translator.git
+   cd language-translator
 
+2. **Install dependencies**
+   npm install
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. **Create .env file**
+   Create a `.env` file in the root and add your API keys:
+   GEMINI_API_KEY=YOUR_GEMINI_KEY_HERE
+   GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_KEY_HERE
+
+4. **Run the project**
+   npm run dev
+
+## 🌐 Live Demo
+https://language-translator-cyan-mu.vercel.app
+
+## 👨‍💻 Developed By
+**Syed Arif Shah**
+
+This project was developed as **Task 1** of the **CodeAlpha AI Internship**.
+
+## 📄 License
+This project is for educational purposes only.
