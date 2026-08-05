@@ -1,0 +1,6 @@
+{
+  "name": "Language Translator",
+  "description": "A modern, AI-powered and Google Translate API-driven language translation tool featuring real-time detection, text-to-speech, translation history, favorites, and multi-language support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
